@@ -243,18 +243,39 @@
                             건설기계 오일 상태 분류 모델 만들기
                           </button>
                         </h2>
-                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                          <h5>💁🏻‍♀️프로젝트 요약</h5>
-                            <li>프로젝트 명: 건설기계 오일 상태 분류</li>
-                            <li>프로젝트 설명: 건설 장비 내부 기계 부품의 마모 상태 및 윤활 성능을 오일 데이터 분석을 통해 확인하고, AI를 활용한 분류 모델 개발을 통해 적절한 교체 주기를 파악하고자 한다. 모델 학습시에는 주어진 모든 feature를 사용할 수 있으나, 진단 테스트시에는 제한된 일부 feature만 사용 가능하다. 따라서 진단 환경에서 제한된 feature 만으로도 작동 오일의 상태를 분류할 수 있는 최적의 알고리즘을 만들어본다.</li>
-                            <li>목표:  건설장비에서 작동오일의 상태를 실시간으로 모니터링하기 위한 오일 상태 판단 모델 개발 (정상, 이상의 이진분류)</li>
-                            <li>결과<br>
-                                - 평가지표: Macro F1 Score<br>
-                                - Top 15%</li>
-                              <li>코드 보기 : <a href="https://github.com/bini-kim/projects/blob/main/%E1%84%80%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%80%E1%85%B5%E1%84%80%E1%85%A8.ipynb">github link</a></li>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <h5>💁🏻‍♀️프로젝트 요약</h5>
+                                    <li>프로젝트 명: 건설기계 오일 상태 분류</li>
+                                    <li>프로젝트 설명: 건설 장비 내부 기계 부품의 마모 상태 및 윤활 성능을 오일 데이터 분석을 통해 확인하고, AI를 활용한 분류 모델 개발을 통해 적절한 교체 주기를 파악하고자 한다. 모델 학습시에는 주어진 모든 feature를 사용할 수 있으나, 진단 테스트시에는 제한된 일부 feature만 사용 가능하다. 따라서 진단 환경에서 제한된 feature 만으로도 작동 오일의 상태를 분류할 수 있는 최적의 알고리즘을 만들어본다.</li>
+                                    <li>목표:  건설장비에서 작동오일의 상태를 실시간으로 모니터링하기 위한 오일 상태 판단 모델 개발 (정상, 이상의 이진분류)</li>
+                                    <li>결과<br>
+                                        - 평가지표: Macro F1 Score<br>
+                                        - Top 15%</li>
+                                    <li>코드 보기 : <a href="https://github.com/bini-kim/projects/blob/main/%E1%84%80%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%80%E1%85%B5%E1%84%80%E1%85%A8.ipynb">github link</a></li>
+                            </div>
+                        </div>
                       </div>
-                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            [CV프로젝트]유방암의 임파선 전이 예측 AI 모델 구축
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <h5>💁🏻‍♀️프로젝트 요약</h5>
+                                    <li>프로젝트 명: 유방암의 임파선 전이 예측 AI 모델 구축</li>
+                                    <li>프로젝트 설명: 림프절(임파선)은 암의 전이, 암이 퍼지는 데 매우 치명적인 역할을 한다. 병원에서 암 진단을 받았을 때 가장 많이 듣는 말이자 관심을 가져야 하는 것이 림프절 전이이며, 이러한 림프절 전이 여부에 따라 치료와 예후가 달라진다. 따라서 림프절 전이 여부와 전이 단계를 파악하는 것이 암을 치료하고 진단하는 것에 있어서 매우 핵심적인 역할을 한다.</li>
+                                    <li>목표: 유방암 병리 슬라이드 영상과 임상 항목 데이터를 이용하여, 유방암의 임파선 전이 여부를 예측함으로써 유방암 치료에 핵심적인 역할을 할 수 있는 AI 모델 구축
+                                        <li>결과<br>
+                                            - 평가지표: Macro F1 Score<br>
+                                            - openCV, scikit-learn, pytorch 등
+                                            - torchvision에서 사전학습된 EfficientNet모델 사용<br>
+                                            - 평가점수 : 0.80906, Top 26(6%)
+                                    <li>코드 보기 : <a href="https://github.com/bini-kim/projects/blob/main/dacon_BCLymph_Predict.ipynb">github link</a></li>
+                            </div>
+                        </div>
                       </div>
                     </div>
                 </div>
@@ -291,6 +312,7 @@
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             2022년 8월, Tabular Playground Series (Aug 2022) - Top 11% / kaggle
                         </li>
+                        
                     </ul>   
                 </div>
             </section>
